@@ -22,7 +22,9 @@ For these cases, we will try to build models to predict how capable each applica
 - Logistic+LightGBM.ipynb
 - Blending Different Models.ipynb
 - Best Submission.csv
+
 Our best model is achieved by a blend of: 75% XGBoost + 15% LightGBM + 10%CatBoost
+
 **Public Score: 0.79316/ Private Score: 0.79045**
 
 ## Write-up files
