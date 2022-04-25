@@ -2,7 +2,7 @@
 
 Team members: Yu Chun Peng, Chien-Chu Hsu, Chia-Yen Ho, Devansh Bhasin
 
-### Background & Context*
+### Background & Context
 It has always been a challenging task for financial institutions to determine the financial strength of a potential customer to repay the loan amount within a defined time period. With the right approach, financial organizations can avoid losses and make huge profits.
 
 Home Credit is an international non-bank financial institution, focusing on installment lending primarily to people with little or no credit history. Home Credit presented a Kaggle challenge to identify who is able to repay the loan based on loan application, demographic and historical credit behavior data, and other alternative data.
@@ -16,14 +16,16 @@ Another scenario is when the loan applicant does have a credit history, but the 
 For these cases, we will try to build models to predict how capable each applicant is of repaying a loan, thus the process can be simplified and effective for both the Home Credit and applicants. This is a classification problem where the label is a binary variable. 0 represents the applicant will repay the loan on time, while 1 represents that the applicant will have difficulty repaying the loan.
 
 
-**Our models and results**
+## Our models and results
 - XGBoost.ipynb
 - Catboost.ipynb
 - Logistic+LightGBM.ipynb
 - Blending Different Models.ipynb
 - Best Submission.csv
+Our best model is achieved by a blend of: 75% XGBoost + 15% LightGBM + 10%CatBoost
+**Public Score: 0.79316/ Private Score: 0.79045**
 
-**Write-up files**
+## Write-up files
 - Presentation Slides.pdf
 - Project Analysis Report.pdf
 
